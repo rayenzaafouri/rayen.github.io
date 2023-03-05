@@ -36,8 +36,6 @@ body{
     color: white;
     padding-left: 15vw ;
     margin-bottom: 10vh;
-    cursor: pointer;
- 
 }
 
 .landing > * {
@@ -60,6 +58,8 @@ body{
     border-radius:.5rem ;
     margin: .5rem 0px .5rem 0px;
     animation: reveal-up 1s;
+    cursor: pointer;
+
 }
 
 .landing h3 span:after{
