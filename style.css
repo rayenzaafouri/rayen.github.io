@@ -46,6 +46,7 @@ body{
 }
 .landing-img{
     height: 25vh;
+    max-height: 12rem;
 
 }
 .landing-title{
