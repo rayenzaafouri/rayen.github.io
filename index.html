@@ -2,25 +2,30 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>my-portfolio</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+
+    <title>Redirecting</title>
+    <script>
+        window.addEventListener("load",function(){
+            setTimeout(() => {
+                window.location = "/portfolio"
+            }, 3000);
+        })
+    </script>
+    <style>
+        body{
+            background: black;
+            display: flex;
+            justify-content: center;
+            color: white;
+            font-family: 'Trebuchet MS', sans-serif;
+            font-weight: lighter;
+
+        }
+    </style>
 </head>
 <body>
-
-    <div class="landing">
-        <img class="landing-img" src="drawable/student.png">
-        <h1 class="landing-title">
-            Peek-a-boo!
-        </h1>
-        <h2>
-            I am <big>Mohamed Rayen Zaafouri</big> , IT student and I showcase my work here !
-        </h2>
-        <h3>
-            <span>▲</span>
-            Scroll to take a look
-        </h3>
-    </div>
+    <h4>🔀 Redirecting to portfolio ...</h4>
 </body>
 </html>
